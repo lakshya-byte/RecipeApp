@@ -19,9 +19,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             RecipeAppTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { padding ->
-                    RecipeScreen(modifier = Modifier.padding(padding))
-                }
+              RecipeApp()
+
             }
         }
     }
